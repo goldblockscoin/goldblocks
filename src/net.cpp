@@ -1069,7 +1069,20 @@ void MapPort(bool)
 #endif
 
 
+// DNS seeds
+// Each pair gives a source name and a seed name.
+// The first name is used as information source for addrman.
+// The second name should resolve to a list of seed addresses.
+static const char *strMainNetDNSSeed[][2] = {
+    {"192.157.212.234", "192.157.212.234"},
+    {"192.157.212.235", "192.157.212.235"},
+    {"104.247.200.168", "104.247.200.168"},
+    {"45.78.157.200", "45.78.157.200"},
+    {"5.189.180.41", "5.189.180.41"},
+    {"5.189.189.51", "5.189.189.51"},
+    {NULL, NULL}
 
+};
 
 
 
