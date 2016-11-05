@@ -27,7 +27,7 @@
 using namespace std;
 using namespace boost;
 
-static const int MAX_OUTBOUND_CONNECTIONS = 16;
+static const int MAX_OUTBOUND_CONNECTIONS = 96;
 
 bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOutbound = NULL, const char *strDest = NULL, bool fOneShot = false);
 
@@ -1068,7 +1068,7 @@ void MapPort(bool)
 }
 #endif
 
-
+/*
 // DNS seeds
 // Each pair gives a source name and a seed name.
 // The first name is used as information source for addrman.
@@ -1083,7 +1083,7 @@ static const char *strMainNetDNSSeed[][2] = {
     {"node7.goldblocks.eu", "node7.goldblocks.eu"},
 
 };
-
+*/
 
 
 void ThreadDNSAddressSeed()
