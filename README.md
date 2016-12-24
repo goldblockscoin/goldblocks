@@ -38,7 +38,6 @@ Copyright (c) 2016 GoldBlocks Developers
 ----------------
 - goldblockscoin@gmail.com
 - https://twitter.com/goldblockscoin
-- https://www.facebook.com/Goldblocks-1041374532612118/
 
 
   Exchanges:
@@ -46,8 +45,10 @@ Copyright (c) 2016 GoldBlocks Developers
 - https://www.livecoin.net
 - https://bleutrade.com/exchange/GB/BTC
 - https://yobit.net/en/trade/GB/BTC
+- https://c-cex.com/?p=gb-btc
 - https://www.coinexchange.io/market/GB/BTC
 - https://bleutrade.com/exchange/GB/DOGE
+- https://c-cex.com/?p=gb-usd
 
 
 
