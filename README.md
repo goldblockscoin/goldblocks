@@ -15,7 +15,7 @@ GoldBlocks is a lite version of Bitcoin using X11 as a proof-of-work/proof-of-st
 - Confirmations Sent: 3
 - TX Fee: 0.0001 GB
 - POW Coin Supply 24.700.000
-- Max Money 50.000.00
+- Max Money 50.000.000
 
 
   POS - proof-of-stake
