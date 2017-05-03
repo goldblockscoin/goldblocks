@@ -4,7 +4,14 @@ GoldBlocks Blockchain Cryptocurrency
 GoldBlocks is a lite version of Bitcoin using X11 as a proof-of-work/proof-of-stake algorithm.
  - Super secure hashing algorithm: 11 rounds of scientific hashing functions: 
  (blake, bmw, groestl, jh, keccak, skein, luffa, cubehash, shavite, simd, echo)
- 
+
+ v1.2
+This is mandatory update!!!
+Many changes are done, which results results of fast syncing stable
+blockchain with fast wallet transactions, and lower CPU usage. 
+Please update as soon as possible.
+Very soon, new version will be released that will ban everyone out of the network who is not updated yet.
+Don't say you were not warned.
  
   Specifications:
 ----------------
