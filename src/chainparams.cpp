@@ -94,7 +94,13 @@ public:
 		vSeeds.push_back(CDNSSeedData("seed4", "185.69.55.38")); //temp seed
 		vSeeds.push_back(CDNSSeedData("seed5", "94.176.238.60")); //temp seed
 		vSeeds.push_back(CDNSSeedData("seed6", "185.5.53.201")); //temp seed
-		//vSeeds.push_back(CDNSSeedData("seed7", "node7.goldblocks.eu"));	
+		vSeeds.push_back(CDNSSeedData("seed7", "node1.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed8", "node2.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed9", "node3.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed10", "node4.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed11", "node5.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed12", "node6.goldblocks.eu"));
+		vSeeds.push_back(CDNSSeedData("seed13", "node7.goldblocks.eu"));	
 		
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(38);
