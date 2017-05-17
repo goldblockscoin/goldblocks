@@ -8,7 +8,7 @@ GoldBlocks is a lite version of Bitcoin using X11 as a proof-of-work/proof-of-st
  
   Note:
 ----------------
-v1.2
+v1.2.1.0
 This is mandatory update!!!
 Many changes are done, which results results of fast syncing stable
 blockchain with fast wallet transactions, and lower CPU usage. 
