@@ -87,27 +87,18 @@ public:
         assert(hashGenesisBlock == uint256("0x000005fc99547a646f2273caa7a1f407ebd885ad89e0b019aa0a70c353598f38"));
         assert(genesis.hashMerkleRoot == uint256("0xf918cefc3f35ea30fce3bb8bc7c1cf4069763b49e22a97d5c08e6ba019df7545"));
 
-		
-        vSeeds.push_back(CDNSSeedData("seed1", "149.56.154.75"));
-        vSeeds.push_back(CDNSSeedData("seed2", "85.25.198.134"));
-		vSeeds.push_back(CDNSSeedData("seed3", "198.54.123.200"));
-		vSeeds.push_back(CDNSSeedData("seed4", "185.69.55.38")); //temp seed
-		vSeeds.push_back(CDNSSeedData("seed5", "94.176.238.60")); //temp seed
-		vSeeds.push_back(CDNSSeedData("seed6", "185.5.53.201")); //temp seed
-		vSeeds.push_back(CDNSSeedData("seed7", "node1.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed8", "node2.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed9", "node3.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed10", "node4.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed11", "node5.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed12", "node6.goldblocks.eu"));
-		vSeeds.push_back(CDNSSeedData("seed13", "node7.goldblocks.eu"));	
+		vSeeds.push_back(CDNSSeedData("seedSupport1", "185.193.36.48"));
+		vSeeds.push_back(CDNSSeedData("seedSupport2", "138.68.69.157"));
+		vSeeds.push_back(CDNSSeedData("seedSupport3", "165.227.144.105"));
+		vSeeds.push_back(CDNSSeedData("seedSupport4", "165.227.143.231"));
+			
 		
         
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(38);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(85);
-        base58Prefixes[SECRET_KEY] =     list_of(155);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(38);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(85);
+        base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(155);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_main, ARRAYLEN(pnSeed6_main));
 
@@ -156,11 +147,11 @@ public:
         vFixedSeeds.clear();
         vSeeds.clear();
 
-        base58Prefixes[PUBKEY_ADDRESS] = list_of(97);
-        base58Prefixes[SCRIPT_ADDRESS] = list_of(196);
-        base58Prefixes[SECRET_KEY]     = list_of(239);
-        base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x35)(0x87)(0xCF);
-        base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x35)(0x83)(0x94);
+        base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(97);
+        base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(196);
+        base58Prefixes[SECRET_KEY]     = std::vector<unsigned char>(239);
+        base58Prefixes[EXT_PUBLIC_KEY] = boost::assign::list_of(0x04)(0x35)(0x87)(0xCF).convert_to_container<std::vector<unsigned char> >();
+        base58Prefixes[EXT_SECRET_KEY] = boost::assign::list_of(0x04)(0x35)(0x83)(0x94).convert_to_container<std::vector<unsigned char> >();
 
         convertSeed6(vFixedSeeds, pnSeed6_test, ARRAYLEN(pnSeed6_test));
 
